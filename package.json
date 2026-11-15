@@ -1,0 +1,13 @@
+{
+  "name": "lyes-design-system",
+  "version": "0.1.0",
+  "description": "Tokens, lint et icônes du design system de Lyes Ouahrani.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-tokens.mjs",
+    "lint": "node lint/lint-tokens.mjs",
+    "lint:fixture": "node lint/lint-tokens.mjs lint/fixtures > /dev/null 2>&1; test $? -eq 1 && echo 'OK : la fixture est refusée comme attendu'",
+    "test": "npm run build && npm run lint && npm run lint:fixture"
+  }
+}
