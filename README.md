@@ -1,6 +1,6 @@
-# Lyes Design System
+# VYNT UI
 
-Les tokens, le lint et les icônes du design system de Lyes Ouahrani.
+VYNT UI, le design system de Lyes Ouahrani : tokens, lint et icônes.
 
 Ce dépôt contient la partie technique du système : les variables de couleur, d'espacement et de rayon, exportées depuis Figma, et les outils pour les utiliser sans valeurs en dur. Les maquettes et le fichier Figma restent la source visuelle.
 

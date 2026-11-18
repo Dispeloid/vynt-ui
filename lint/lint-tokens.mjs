@@ -16,7 +16,10 @@ const PX_ALLOWED_VALUES = new Set(["1.5px", "2px"]);
 
 const rules = [
   { id: "hex", re: /#[0-9a-fA-F]{3,8}\b/g, msg: "couleur en dur : utilise une variable var(--…)" },
-  { id: "px", re: /\b\d+(\.\d+)?px\b/g, msg: "taille en dur : utilise une variable d'espacement ou de rayon" },
+  { id: "px", re: /\b\d+(\.\d+)?px\b/g, msg: "taille en dur : utilise une variable d'espacement, de rayon ou de typographie" },
+  // Un composant consomme des sémantiques (accent, text-primary...), jamais des primitives (red-600, neutral-50...)
+  { id: "primitive", re: /var\(--(red|neutral|ambiance|error|warning|info|success)-[\w-]+\)/g,
+    msg: "primitive utilisée dans un composant : utilise la sémantique correspondante (ex. --accent)" },
 ];
 
 function walk(dir, out = []) {
