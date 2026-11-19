@@ -1,0 +1,5 @@
+/* Dérive sémantique : valeur légale pour le lint, mais pas la bonne variable. */
+.btn-primary {
+  background-color: var(--red-600);
+  color: var(--neutral-50);
+}

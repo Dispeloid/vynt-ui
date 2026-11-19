@@ -46,14 +46,14 @@
       "description": "Thème sombre uniquement. Référence dynamique : neutral-50. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
     },
     "text_secondary": {
-      "value": "{Neutral.neutral-400}",
+      "value": "{Neutral.neutral-300}",
       "type": "color",
       "$extensions": {
         "com.figma.scopes": [
           "TEXT_FILL"
         ]
       },
-      "description": "Thème sombre uniquement. Référence dynamique : neutral-400. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+      "description": "Thème sombre uniquement. Référence dynamique : neutral-300. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
     },
     "text_disabled": {
       "value": "{Neutral.neutral-600}",
@@ -78,14 +78,14 @@
       "description": "Thème sombre uniquement. Référence dynamique : neutral-600. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
     },
     "border_focus": {
-      "value": "{Red.red-600}",
+      "value": "{Neutral.neutral-50}",
       "type": "color",
       "$extensions": {
         "com.figma.scopes": [
           "STROKE_COLOR"
         ]
       },
-      "description": "Thème sombre uniquement. Référence dynamique : red-600. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+      "description": "Thème sombre uniquement. Référence dynamique : neutral-50. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
     },
     "border_subtle": {
       "value": "{Neutral.neutral-800}",
@@ -159,7 +159,7 @@
       "description": "Thème sombre uniquement. Référence dynamique : text_primary. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Présentation : soulignement obligatoire, porté par la typographie ou le composant, pas par la variable de couleur. Au survol, utiliser link_hover."
     },
     "link_hover": {
-      "value": "{Accent.accent}",
+      "value": "{Text.text_primary}",
       "type": "color",
       "description": "Thème sombre uniquement. Référence dynamique : accent. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Couleur du lien au survol, en remplacement de link_default."
     }
