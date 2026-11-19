@@ -1,0 +1,10 @@
+/* Exemple conforme : uniquement des variables. */
+.button-primary {
+  background: var(--button-primary-bg);
+  color: var(--button-primary-text);
+  padding: var(--spacing-100) var(--spacing-200);
+  border-radius: var(--border-radius-50);
+}
+.button-primary:hover {
+  background: var(--button-primary-bg-hover);
+}

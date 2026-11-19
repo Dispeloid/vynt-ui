@@ -1,0 +1,5 @@
+/* Exemple non conforme : doit être refusé par le lint. */
+.button-primary {
+  background: #B01E28;
+  padding: 16px 24px;
+}

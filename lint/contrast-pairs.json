@@ -1,7 +1,26 @@
 [
-  { "name": "Texte principal sur fond principal", "fg": "text-primary", "bg": "bg-primary", "min": 4.5 },
-  { "name": "Texte secondaire sur fond principal", "fg": "text-secondary", "bg": "bg-primary", "min": 4.5 },
-  { "name": "Accent (texte de lien) sur fond principal", "fg": "accent", "bg": "bg-primary", "min": 4.5 },
-  { "name": "Texte sur accent (bouton primaire)", "fg": "text-on-accent", "bg": "accent", "min": 4.5 },
-  { "name": "Bordure de focus sur fond principal", "fg": "border-focus", "bg": "bg-primary", "min": 3 }
+  {
+    "name": "Texte principal sur fond principal",
+    "fg": "text-primary",
+    "bg": "bg-primary",
+    "min": 4.5
+  },
+  {
+    "name": "Texte secondaire sur fond principal",
+    "fg": "text-secondary",
+    "bg": "bg-primary",
+    "min": 4.5
+  },
+  {
+    "name": "Texte sur accent (bouton primaire)",
+    "fg": "text-on-accent",
+    "bg": "accent",
+    "min": 4.5
+  },
+  {
+    "name": "Anneau de focus sur fond principal",
+    "fg": "border-focus",
+    "bg": "bg-primary",
+    "min": 3
+  }
 ]
