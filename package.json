@@ -7,8 +7,8 @@
   "scripts": {
     "build": "node scripts/build-tokens.mjs",
     "lint": "node lint/lint-tokens.mjs",
-    "lint:fixture": "node lint/lint-tokens.mjs lint/fixtures/invalid.css >/dev/null 2>&1; test $? -eq 1 && echo OK: fixture refusee",
-    "lint:derive": "node lint/lint-tokens.mjs lint/fixtures/derive >/dev/null 2>&1; test $? -eq 1 && echo OK: derive refusee",
+    "lint:fixture": "node scripts/expect-fail.mjs lint/fixtures/invalid.css",
+    "lint:derive": "node scripts/expect-fail.mjs lint/fixtures/derive",
     "contrast": "node scripts/check-contrast.mjs",
     "contrast:strict": "node scripts/check-contrast.mjs --strict",
     "test": "npm run build && npm run lint && npm run lint:fixture && npm run lint:derive && npm run contrast"
