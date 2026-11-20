@@ -1,0 +1,215 @@
+{
+  "Background": {
+    "bg_primary": {
+      "value": "{Neutral.neutral-950}",
+      "type": "color",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ]
+      },
+      "description": "Thème sombre uniquement. Référence dynamique : neutral-950. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    },
+    "bg_secondary": {
+      "value": "{Neutral.neutral-900}",
+      "type": "color",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ]
+      },
+      "description": "Thème sombre uniquement. Référence dynamique : neutral-900. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    },
+    "bg_tertiary": {
+      "value": "{Neutral.neutral-800}",
+      "type": "color",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ]
+      },
+      "description": "Thème sombre uniquement. Référence dynamique : neutral-800. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    }
+  },
+  "Text": {
+    "text_primary": {
+      "value": "{Neutral.neutral-50}",
+      "type": "color",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ]
+      },
+      "description": "Thème sombre uniquement. Référence dynamique : neutral-50. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    },
+    "text_secondary": {
+      "value": "{Neutral.neutral-300}",
+      "type": "color",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ]
+      },
+      "description": "Thème sombre uniquement. Référence dynamique : neutral-300. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    },
+    "text_disabled": {
+      "value": "{Neutral.neutral-600}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : neutral-600. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    },
+    "text_on_accent": {
+      "value": "{Neutral.neutral-50}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : neutral-50. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    }
+  },
+  "Border": {
+    "border_default": {
+      "value": "{Neutral.neutral-600}",
+      "type": "color",
+      "$extensions": {
+        "com.figma.scopes": [
+          "STROKE_COLOR"
+        ]
+      },
+      "description": "Thème sombre uniquement. Référence dynamique : neutral-600. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    },
+    "border_focus": {
+      "value": "{Neutral.neutral-50}",
+      "type": "color",
+      "$extensions": {
+        "com.figma.scopes": [
+          "STROKE_COLOR"
+        ]
+      },
+      "description": "Thème sombre uniquement. Référence dynamique : neutral-50. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    },
+    "border_subtle": {
+      "value": "{Neutral.neutral-800}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : neutral-800. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    }
+  },
+  "Button": {
+    "button_primary_bg": {
+      "value": "{Accent.accent}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : accent. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Alias exclusivement sémantique."
+    },
+    "button_primary_bg_hover": {
+      "value": "{Accent.accent_hover}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : accent_hover. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Alias exclusivement sémantique."
+    },
+    "button_primary_bg_pressed": {
+      "value": "{Accent.accent_pressed}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : accent_pressed. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Alias exclusivement sémantique."
+    },
+    "button_primary_text": {
+      "value": "{Text.text_on_accent}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : text_on_accent. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Alias exclusivement sémantique."
+    },
+    "button_secondary_bg": {
+      "value": "{Background.bg_secondary}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : bg_secondary. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Alias exclusivement sémantique."
+    },
+    "button_secondary_border": {
+      "value": "{Border.border_default}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : border_default. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Alias exclusivement sémantique."
+    },
+    "button_secondary_text": {
+      "value": "{Text.text_primary}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : text_primary. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Alias exclusivement sémantique."
+    }
+  },
+  "Accent": {
+    "accent": {
+      "value": "{Red.red-600}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : red-600. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    },
+    "accent_hover": {
+      "value": "{Red.red-700}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : red-700. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    },
+    "accent_pressed": {
+      "value": "{Red.red-800}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : red-800. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    },
+    "accent_subtle": {
+      "value": "{Red.red-100}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : red-100. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement."
+    }
+  },
+  "Link": {
+    "link_default": {
+      "value": "{Text.text_primary}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : text_primary. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Présentation : soulignement obligatoire, porté par la typographie ou le composant, pas par la variable de couleur. Au survol, utiliser link_hover."
+    },
+    "link_hover": {
+      "value": "{Text.text_primary}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : accent. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Couleur du lien au survol, en remplacement de link_default."
+    }
+  },
+  "Status": {
+    "status_warning_bg": {
+      "value": "{Statut.Warning.warning-100}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : warning-100. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Réservé aux retours d’état du formulaire de contact. Ne pas généraliser à d’autres interfaces sans décision de conception explicite."
+    },
+    "status_warning_text": {
+      "value": "{Statut.Warning.warning-900}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : warning-900. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Réservé aux retours d’état du formulaire de contact. Ne pas généraliser à d’autres interfaces sans décision de conception explicite."
+    },
+    "status_warning_border": {
+      "value": "{Statut.Warning.warning-600}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : warning-600. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Réservé aux retours d’état du formulaire de contact. Ne pas généraliser à d’autres interfaces sans décision de conception explicite."
+    },
+    "status_info_bg": {
+      "value": "{Statut.Info.info-100}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : info-100. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Réservé aux retours d’état du formulaire de contact. Ne pas généraliser à d’autres interfaces sans décision de conception explicite."
+    },
+    "status_info_text": {
+      "value": "{Statut.Info.info-900}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : info-900. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Réservé aux retours d’état du formulaire de contact. Ne pas généraliser à d’autres interfaces sans décision de conception explicite."
+    },
+    "status_info_border": {
+      "value": "{Statut.Info.info-600}",
+      "type": "color",
+      "description": "Thème sombre uniquement. Référence dynamique : info-600. Utiliser les variables sémantiques dans les composants et maquettes, jamais les primitives directement. Réservé aux retours d’état du formulaire de contact. Ne pas généraliser à d’autres interfaces sans décision de conception explicite."
+    },
+    "status_error_border": {
+      "value": "{Statut.Error.error-600}",
+      "type": "color"
+    },
+    "status_success_bg": {
+      "value": "{Statut.Success.success-100}",
+      "type": "color"
+    },
+    "status_success_text": {
+      "value": "{Statut.Success.success-900}",
+      "type": "color"
+    },
+    "status_success_border": {
+      "value": "{Statut.Success.success-600}",
+      "type": "color"
+    }
+  }
+}
