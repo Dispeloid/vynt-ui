@@ -33,6 +33,28 @@ Aucune dépendance : Node 22 suffit.
 }
 ```
 
+## Consommer les tokens
+
+Deux façons, selon ton besoin :
+
+- **Depuis une version publiée** (recommandé) : télécharge `tokens.css` depuis la release souhaitée.
+  ```bash
+  curl -LO https://github.com/Dispeloid/vynt-ui/releases/download/v0.1.0/tokens.css
+  ```
+  Chaque version correspond à un état figé du système.
+- **Depuis les sources** : `npm run build` génère `tokens/dist/tokens.css` à partir de `tokens/source/`.
+
+## Publier une version
+
+1. Mettre à jour `version` dans `package.json`, puis fusionner dans `main` par pull request.
+2. Créer le tag et le pousser :
+   ```bash
+   git checkout main && git pull
+   git tag v0.2.0
+   git push origin v0.2.0
+   ```
+3. La CI relance `npm test`, génère `tokens.css` et crée la release GitHub avec le fichier joint.
+
 ## Principe
 
 Deux couches : les **primitives** (valeurs brutes, `--red-600`) et les **sémantiques** (noms d'usage, `--accent`). Un composant consomme toujours une sémantique. Si la couleur de marque change, une seule ligne se modifie.
